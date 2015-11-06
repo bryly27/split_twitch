@@ -1,0 +1,14 @@
+body {
+	padding: 55px 20px 20px 20px;
+	background-color: black;
+}
+.form {
+	height: 25px;
+}
+
+.navbar-brand {
+	margin-bottom: 0px;
+}
+.navbar-default .navbar-brand, .logo {
+	color: #6441A5;
+}

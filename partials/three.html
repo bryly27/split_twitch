@@ -1,0 +1,69 @@
+<div ng-controller="splitController">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-md-offset-3 channel">
+				<iframe ng-src="{{splitOneVid}}" frameborder="0" scrolling="no" height="50%;" width="100%"></iframe>
+				<div class="form">
+					<form ng-submit="submitOne(one)">
+						<input type="text" ng-model="one" placeholder="channel 1">
+						<input type="submit">
+					</form>
+				</div>
+			</div>
+
+			<div class="col-md-12">
+				<br>
+				<div class="row">
+
+
+
+
+					<div class="col-md-6 channel">
+						<iframe ng-src="{{splitTwoVid}}" frameborder="0" scrolling="no" height="48%;" width="100%"></iframe>
+						<div class="form">
+							<form ng-submit="submitTwo(two)">
+								<input type="text" ng-model="two" placeholder="channel 2">
+								<input type="submit">
+							</form>
+						</div>
+
+					</div>
+
+					<div class="col-md-6 channel">
+						<iframe ng-src="{{splitThreeVid}}" frameborder="0" scrolling="no" height="48%;" width="100%"></iframe>
+						<div class="form">
+							<form ng-submit="submitThree(three)">
+								<input type="text" ng-model="three" placeholder="channel 3">
+								<input type="submit">
+							</form>
+						</div>
+
+					</div>
+
+
+
+
+
+				</div>
+
+
+
+
+
+			</div>
+
+
+
+
+
+		</div>
+
+
+
+
+
+	</div>
+
+
+</div>
+

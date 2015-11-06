@@ -1,0 +1,15 @@
+<div ng-controller="splitController">
+	<div class="container">
+		<div class="channel">
+
+			<iframe ng-src="{{splitOneVid}}" frameborder="0" scrolling="no" height="60%;" width="100%"></iframe>
+			<div class="form">
+				<form ng-submit="submitOne(one)">
+					<input type="text" ng-model="one" placeholder="channel 1">
+					<input type="submit">
+				</form>
+			</div>
+		</div>
+	</div>
+
+</div>
